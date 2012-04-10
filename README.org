@@ -1,0 +1,24 @@
+#+Title:        Scalatra, jade and impress.js playing together README
+#+AUTHOR:       José Miguel Martínez Carrasco
+#+EMAIL:        jm2dev@gmail.com
+
+* Introduction
+
+  This a very simple [[http://scala-sbt.org][SBT]] project using [[http://www.scalatra.org][Scalatra]], [[http://jade-lang.com/][Jade]] and [[http://bartaz.github.com/impress.js][impress.js]]
+
+* Requirements
+
+- [[http://www.openjdk.org][OpenJDK]]
+
+- [[http://scala-sbt.org][SBT]]
+
+* Usage
+
+Open a [[http://scala-sbt.org][SBT]] session, run the following goal and navigate to
+http://localhost:8080
+
+#+BEGIN_SRC bash
+container:start 
+#+END_SRC
+
+

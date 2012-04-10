@@ -1,0 +1,83 @@
+#impress.impress-not-supported
+  .fallback-message
+    p
+      |Your browser
+      b
+        does not support the features required
+      |by impress.js, so you are presented with a simplified version of this presentation.
+    p
+      |For the best experience please use the latest
+      b Chrome
+      |,
+      b Safari
+      or
+      b Firefox
+      |browser. Upcoming version 10 of Internet Explorer
+      i should
+      |also handle it.
+
+  #title.step(data-x="0" data-y="0" data-scale="2")
+    p
+      |A SBT plugin
+
+  #its-in-3d.step(data-x="200" data-y="300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2")
+    p
+      span.have
+        |to perform
+      b
+        |XSLT
+        sup *
+      span.in
+        | operations
+      |?
+      span.footnote
+        |* by José Miguel Martínez Carrasco
+
+  #its.step(data-x="3000" data-y="1500" data-scale="4")
+    h1
+      b Motivation
+    span.footnote
+      ul
+        li Plugins development
+        li Integration within a scala project
+        li Reusablility.
+
+  #big.step(data-x="3500" data-y="2100" data-rotate="180" data-scale="6")
+    p Our datasource is XML based.
+
+  #tiny.step(data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1")
+    p XSLT is a technology to transform XML documents.
+
+  #imagination.step(data-x="6700" data-y="-300" data-scale="6")
+    h1 Use it!
+
+  #ing.step(data-x="3500" data-y="-850" data-rotate="270" data-scale="6")
+    p
+      |import the
+      b.positioning
+        |plugin
+      |, create your
+      b.rotating
+        |XSLT file
+      |and convert everything under
+      b.scaling
+        |src/main/xml
+
+
+  #source.step(data-x="6300" data-y="2000" data-rotate="20" data-scale="4")
+    p
+      |want to know more?
+    p
+      a(href="http://github.com/jm2dev/sbt-xslt-plugin")
+        img(src="/images/original.jpg" width="20%")
+
+  #overview.step(data-x="3000" data-y="1500" data-scale="10")
+
+.hint
+  p
+    |Use a spacebar or arrow keys to navigate
+
+:javascript
+  if ("ontouchstart" in document.documentElement) {
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+  }

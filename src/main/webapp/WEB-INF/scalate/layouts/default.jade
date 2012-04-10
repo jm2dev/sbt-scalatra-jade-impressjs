@@ -1,0 +1,19 @@
+-@ val title: String = "SBT XSLT Plugin Presentation"
+-@ val headline: String = "sbt xslt plugin presentation"
+-@ val body: String
+
+!!! 5
+html(lang="en")
+  head
+    title= title
+    meta(charset="utf-8")
+    meta(name="viewport"  content="width=device-width  initial-scale=1.0")
+    meta(name="description" content=headline)
+    link(rel="stylesheet" href="/css/impress-demo.css" type="text/css")
+  body
+    != body
+
+  / Le javascript ==================================================
+  script(src="/js/impress.js")
+  :javascript
+    impress();
