@@ -14,11 +14,13 @@
 
 * Usage
 
-Open a [[http://scala-sbt.org][SBT]] session, run the following goal and navigate to
-http://localhost:8080
+Build the one jar application navigate to
+http://localhost:9091
 
 #+BEGIN_SRC bash
-container:start 
+sbt clean assembly
+
+java -jar sbt-xslt-scalatra-assembly-0.0.1.jar com.jm2dev.web.MyScalatraApp
 #+END_SRC
 
 
