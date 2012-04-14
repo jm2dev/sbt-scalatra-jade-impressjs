@@ -20,7 +20,6 @@
     <servlet-name>default</servlet-name>
     <url-pattern>/images/*</url-pattern>
     <url-pattern>/css/*</url-pattern>
-    <url-pattern>/less/*</url-pattern>
     <url-pattern>/js/*</url-pattern>
   </servlet-mapping>
 </web-app>
